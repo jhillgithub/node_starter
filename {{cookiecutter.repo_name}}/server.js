@@ -23,7 +23,7 @@ app.engine('handlebars', exphbs({
 }));
 app.set('view engine', 'handlebars');
 
-var routes = require('./controllers/{{controller_name}}.js');
+var routes = require('./controllers/{{cookiecutter.controller_name}}.js');
 app.use('/', routes);
 
 var port = 3000;
