@@ -1,15 +1,14 @@
-======================
-node-mvc-starter
-======================
+# cookiecutter-node-mvc-starter
 
-Cookiecutter template for a Node MVC package. See https://github.com/jhillgithub/node_starter.
+Cookiecutter template for a Node MVC project. See https://github.com/audreyr/cookiecutter.
 
-Usage
------
+#### Usage
 
-Generate a Node MVC package project::
-
-    cookiecutter https://github.com/jhillgithub/node_starter.git
+```
+$ pip install cookiecutter
+$ cookiecutter https://github.com/jhillgithub/node_starter.git
+$ ... (fill out the values you want)
+$ npm install
 
 Then:
 
